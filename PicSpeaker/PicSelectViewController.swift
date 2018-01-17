@@ -84,6 +84,7 @@ class PicSelectViewController: UIViewController, UIImagePickerControllerDelegate
         
         self.picView.image = nil
         self.clear.isHidden = true
+        self.checked.isHidden = true
         
     }
     @IBAction func correct(_ sender: Any) {
